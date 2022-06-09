@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Signup for Newsletter</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="public\css\styles.css" rel="stylesheet">
+
+</head>
+
+<body class="text-center">
+
+
+
+  <main class="form-signin w-100 m-auto">
+    <form method="post" action='/'>
+      <img class="mb-4" src="public/images/btc.png" alt="" width="72" height="57">
+      <h1 class="h3 mb-3 fw-normal">Signup to my newsletter</h1>
+
+
+      <div class="form-floating ">
+        <input name="fName" type="text" class="form-control top" id="floatingFname" placeholder=" " required autofocus>
+          <label for="floatingFname">First Name</label>
+      </div>
+      <div class="form-floating ">
+        <input name="lName" type="text" class="form-control middle" id="floatingLname" placeholder=" " required>
+        <label for="floatingLname">Last Name</label>
+      </div>
+      <div class="form-floating ">
+
+        <input name="elmail" type="email" class="form-control bottom" id="floatingInput" placeholder=" " required>
+        <label for="floatingInput">Email address</label>
+      </div>
+
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign me up!</button>
+      <p class="mt-5 mb-3 text-muted">&copy; Pro's Newsletter</p>
+    </form>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
